@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const ProfilePic = () => {
   return (
-    <div className='flex items-center justify-center '>
+    <div className='flex items-center justify-center py-5'>
       <div className='px-4'>
         <Image
           className='rounded-full border-4 border-white'
@@ -13,7 +13,7 @@ const ProfilePic = () => {
           height={200}
           priority={true}
         />
-        <h2 className='text-center font-bold'>Henry Dominguez</h2>
+        <h2 className='text-center font-bold text-white'>Henry Dominguez</h2>
       </div>
       <div>
         <Image
@@ -24,7 +24,7 @@ const ProfilePic = () => {
           height={200}
           priority={true}
         />
-        <h2 className='text-center font-bold'>Aychdev</h2>
+        <h2 className='text-center font-bold text-white'>Aychdev</h2>
       </div>
     </div>
   );
