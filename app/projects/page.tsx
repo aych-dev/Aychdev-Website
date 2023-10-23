@@ -40,46 +40,55 @@ const Projects = (): JSX.Element => {
 
   const projectElement: JSX.Element[] = projectArray.map((project, index) => {
     return (
-      <div
-        key={index}
-        className='border-white border shadow-lg rounded-lg p-4 w-80'
-      >
-        <div className='relative h-48'>
-          <Image
-            src={project.image}
-            alt={project.name}
-            layout='fill'
-            objectFit='cover'
-            className='rounded-t-lg'
-          />
-        </div>
-        <div className='mt-4'>
-          <h2 className='text-xl font-semibold'>{project.name}</h2>
-          <p className='mt-2 text-gray-600'>{project.description}</p>
-          <div className='mt-4'>
-            <a
-              href={project.website}
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-blue-600 hover:underline mr-4'
-            >
-              Website
-            </a>
-            <a
-              href={project.github}
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-gray-700 hover:underline'
-            >
-              GitHub
-            </a>
+      <div className='p-7'>
+        <div
+          key={index}
+          className='shadow-lg rounded-lg max-w-2xl border border-white'
+          style={{ height: '400px' }}
+        >
+          <div className='relative h-48'>
+            <Image
+              src={project.image}
+              alt={project.name}
+              layout='fill'
+              objectFit='cover'
+              className='rounded-t-lg'
+            />
+          </div>
+          <div className='mt-4 p-4'>
+            <h2 className='text-xl font-semibold'>{project.name}</h2>
+            <p className='mt-2'>{project.description}</p>
+            <div className='mt-3 flex items-center justify-center font-semibold'>
+              <a
+                href={project.website}
+                target='_blank'
+                rel='noopener noreferrer'
+                className=' hover:underline mr-4'
+              >
+                Website
+              </a>
+              <a
+                href={project.github}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='hover:underline'
+              >
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>
     );
   });
 
-  return <div className='flex-grow text-white'>{projectElement}</div>;
+  return (
+    <div className='flex-grow text-white'>
+      <div className='flex flex-col-3 items-center justify-center '>
+        {projectElement}
+      </div>
+    </div>
+  );
 };
 
 export default Projects;
