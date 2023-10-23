@@ -12,8 +12,9 @@ const Introduction = () => {
         and web/app development. I am currently learning how to implement Solana
         blockchain applications on the front-end and have an interest in soon
         learning Rust. I love that my work feels meaningful and I really enjoy
-        helping upcoming aspiring developers. Feel free to check out the rest of
-        my site.
+        helping upcoming aspiring developers. More than anything, I want my
+        story to inspire people to believe in their potential regardless of what
+        they might feel or hear from others. Don't hesitate to reach out!
       </p>
     </div>
   );
