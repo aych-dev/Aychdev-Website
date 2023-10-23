@@ -7,7 +7,7 @@ const ProfilePic = () => {
       <div className='px-4'>
         <Image
           className='rounded-full border-4 border-white'
-          src={'/images/aychimage.jpeg'}
+          src='/images/aychimage.jpeg'
           alt='profile-pic'
           width={200}
           height={200}
