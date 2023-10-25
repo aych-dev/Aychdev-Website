@@ -8,7 +8,7 @@ const Introduction = () => {
       </div>
       <p className='m-4 '>
         My name is Henry Dominguez and I go by the alias Aychdev (eych-dev)
-        online. I'm a self-taught developer interested in all things blockchain
+        online. I am a self-taught developer interested in all things blockchain
         and web/app development. I am currently learning how to implement Solana
         blockchain applications on the front-end and have an interest in soon
         learning Rust. I love that my work feels meaningful and I really enjoy
