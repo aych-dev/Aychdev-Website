@@ -40,9 +40,8 @@ const Projects = (): JSX.Element => {
 
   const projectElement: JSX.Element[] = projectArray.map((project, index) => {
     return (
-      <div className='p-7'>
+      <div key={index} className='p-7'>
         <div
-          key={index}
           className='shadow-lg rounded-lg max-w-2xl border border-white'
           style={{ height: '400px' }}
         >

@@ -14,7 +14,7 @@ const Introduction = () => {
         learning Rust. I love that my work feels meaningful and I really enjoy
         helping upcoming aspiring developers. More than anything, I want my
         story to inspire people to believe in their potential regardless of what
-        they might feel or hear from others. Don't hesitate to reach out!
+        they might feel or hear from others. Do not hesitate to reach out!
       </p>
     </div>
   );
