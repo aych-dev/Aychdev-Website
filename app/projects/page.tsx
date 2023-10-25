@@ -40,9 +40,9 @@ const Projects = (): JSX.Element => {
 
   const projectElement: JSX.Element[] = projectArray.map((project, index) => {
     return (
-      <div key={index} className='p-7'>
+      <div key={index} className='px-3'>
         <div
-          className='shadow-lg rounded-lg max-w-2xl border border-white'
+          className='shadow-lg rounded-lg border border-white max-w-2xl'
           style={{ height: '400px' }}
         >
           <div className='relative h-48'>
@@ -54,7 +54,7 @@ const Projects = (): JSX.Element => {
               className='rounded-t-lg'
             />
           </div>
-          <div className='mt-4 p-4'>
+          <div className='mt-4 px-2'>
             <h2 className='text-xl font-semibold'>{project.name}</h2>
             <p className='mt-2'>{project.description}</p>
             <div className='mt-3 flex items-center justify-center font-semibold'>
@@ -82,10 +82,8 @@ const Projects = (): JSX.Element => {
   });
 
   return (
-    <div className='flex-grow text-white'>
-      <div className='flex flex-col-3 items-center justify-center '>
-        {projectElement}
-      </div>
+    <div className=' text-white flex items-center justify-center min-w-full'>
+      {projectElement}
     </div>
   );
 };

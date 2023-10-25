@@ -4,7 +4,7 @@ import Image from 'next/image';
 const ProfilePic = () => {
   return (
     <div className='flex items-center justify-center py-5'>
-      <div className='px-4'>
+      <div className='px-4 '>
         <Image
           className='rounded-full border-4 border-white'
           src='/images/aychimage.jpeg'
