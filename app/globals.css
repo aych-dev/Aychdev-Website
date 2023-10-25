@@ -12,7 +12,7 @@ a:hover {
   color: #2cff4e;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 844px) {
   a:active,
   a:focus {
     color: #2cff4e;
