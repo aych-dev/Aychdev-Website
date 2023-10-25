@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className='text-white py-4 min-w-full p-2'>
+    <nav className='text-white p-4 min-w-full '>
       <div className='container mx-auto flex justify-between items-center'>
         <Link href='/' className='text-xl font-bold'>
           Aychdev

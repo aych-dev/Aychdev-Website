@@ -11,3 +11,10 @@ body {
 a:hover {
   color: #2cff4e;
 }
+
+@media (max-width: 640px) {
+  a:active,
+  a:focus {
+    color: #2cff4e;
+  }
+}

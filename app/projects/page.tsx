@@ -42,7 +42,7 @@ const Projects = (): JSX.Element => {
     return (
       <div key={index} className='px-3'>
         <div
-          className='shadow-lg rounded-lg border border-white max-w-2xl'
+          className='shadow-lg rounded-lg border border-white max-w-2xl '
           style={{ height: '400px' }}
         >
           <div className='relative h-48'>
@@ -57,24 +57,19 @@ const Projects = (): JSX.Element => {
           <div className='mt-4 px-2'>
             <h2 className='text-xl font-semibold'>{project.name}</h2>
             <p className='mt-2'>{project.description}</p>
-            <div className='mt-3 flex items-center justify-center font-semibold'>
-              <a
-                href={project.website}
-                target='_blank'
-                rel='noopener noreferrer'
-                className=' hover:underline mr-4'
-              >
-                Website
-              </a>
-              <a
-                href={project.github}
-                target='_blank'
-                rel='noopener noreferrer'
-                className='hover:underline'
-              >
-                GitHub
-              </a>
-            </div>
+          </div>
+          <div className='flex items-center justify-center font-semibold mt-2 '>
+            <a
+              href={project.website}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='mr-4'
+            >
+              Website
+            </a>
+            <a href={project.github} target='_blank' rel='noopener noreferrer'>
+              GitHub
+            </a>
           </div>
         </div>
       </div>
@@ -82,7 +77,7 @@ const Projects = (): JSX.Element => {
   });
 
   return (
-    <div className=' text-white flex items-center justify-center min-w-full'>
+    <div className=' text-white flex items-center justify-center min-w-full mt-5'>
       {projectElement}
     </div>
   );
