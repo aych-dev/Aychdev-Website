@@ -28,7 +28,7 @@ const Introduction = () => {
               Languages and Technologies
             </h1>
           </div>
-          <div className='m-4 grid grid-cols-2 p-5 text-center text-#2cff4e '>
+          <div className='m-4 grid grid-cols-2 p-5 text-center text-customGreen '>
             <p className='my-1 font-semibold  '>Javascript</p>
             <p className='my-1 font-semibold '>Typescript</p>
             <p className='my-1 font-semibold '>React.js</p>
