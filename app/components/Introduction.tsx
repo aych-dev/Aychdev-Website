@@ -1,4 +1,3 @@
-import { divideAmount } from '@metaplex-foundation/umi';
 import Link from 'next/link';
 import React from 'react';
 
