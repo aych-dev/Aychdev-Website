@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react';
 import Image from 'next/image';
-import { JsxElement } from 'typescript';
 
 type PersonalProjects = {
   name: string;
@@ -40,9 +39,9 @@ const Projects = (): JSX.Element => {
 
   const projectElement: JSX.Element[] = projectArray.map((project, index) => {
     return (
-      <div key={index} className='px-3'>
+      <div key={index} className='p-3 items-center justify-center'>
         <div
-          className='shadow-lg rounded-lg border border-white max-w-2xl '
+          className='shadow-lg rounded-lg border border-white max-w-2xl'
           style={{ height: '400px' }}
         >
           <div className='relative h-48'>
@@ -77,7 +76,7 @@ const Projects = (): JSX.Element => {
   });
 
   return (
-    <div className=' text-white flex items-center justify-center min-w-full mt-5'>
+    <div className='text-white sm:flex items-center justify-center min-w-full mt-5'>
       {projectElement}
     </div>
   );
