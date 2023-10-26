@@ -76,7 +76,7 @@ const Projects = (): JSX.Element => {
   });
 
   return (
-    <div className='text-white sm:flex items-center justify-center min-w-full mt-5'>
+    <div className='text-white sm:flex items-center justify-center min-w-full flex-grow'>
       {projectElement}
     </div>
   );
