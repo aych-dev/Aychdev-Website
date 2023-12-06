@@ -35,6 +35,14 @@ const Projects = (): JSX.Element => {
       website: 'https://solgallery-git-main-aych-dev.vercel.app/',
       github: 'https://github.com/aych-dev/SOLGallery',
     },
+    {
+      name: 'Aychdev NFT',
+      description:
+        'My NFT site built on the Solana blockchain. Built using Typescript, DaisyUI, Tailwind CSS, Next.js, Metaplex SDK.',
+      image: '/images/aychdevnft.png',
+      website: 'https://aychdevnft.vercel.app/',
+      github: 'https://github.com/aych-dev/AychdevNFT',
+    },
   ];
 
   const projectElement: JSX.Element[] = projectArray.map((project, index) => {
