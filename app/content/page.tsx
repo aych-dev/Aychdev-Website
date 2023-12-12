@@ -18,7 +18,7 @@ const Content = () => {
             too. This journey can come with a mix of emotions sometimes more
             negative than positive, but I hope that my content can be a reminder
             that they are not alone and to keep staying resilient 💪. If you
-            want to follow along feel free to shoot me a follow on TikTok or
+            want to follow along feel free to shoot me a follow on tok or
             Twitter.
           </p>
         </div>
