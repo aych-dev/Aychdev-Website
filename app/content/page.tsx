@@ -18,8 +18,22 @@ const Content = () => {
             too. This journey can come with a mix of emotions sometimes more
             negative than positive, but I hope that my content can be a reminder
             that they are not alone and to keep staying resilient 💪. If you
-            want to follow along feel free to shoot me a follow on tok or
-            Twitter.
+            want to follow along feel free to shoot me a follow on{' '}
+            <a
+              href='https://www.tiktok.com/@aychlife'
+              target='_blank'
+              className='font-semibold hover:text-customGreen '
+            >
+              TikTok
+            </a>{' '}
+            or{' '}
+            <a
+              href='https://www.x.com/aychdev'
+              target='_blank'
+              className='font-semibold hover:text-customGreen '
+            >
+              X (Twitter)
+            </a>
           </p>
         </div>
         <div className='flex items-center justify-center'>
