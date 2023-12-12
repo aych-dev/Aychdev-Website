@@ -8,11 +8,11 @@ const Content = () => {
       <div className='max-w-2xl'>
         <div className='border border-white'>
           <div className='border bg-white'>
-            <h1 className='ml-4 text-black font-bold'>You're Not Alone... </h1>
+            <h1 className='ml-4 text-black font-bold'>You Are Not Alone... </h1>
           </div>
           <p className='m-4'>
             One of my passions is creating video content and I have found a way
-            to implement it into my coding journey. I've been documenting my
+            to implement it into my coding journey. I have been documenting my
             journey since day 1 not only to look back on to see my progress, but
             to show a side that I think a lot of aspring developers can relate
             too. This journey can come with a mix of emotions sometimes more
