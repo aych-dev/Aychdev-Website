@@ -43,6 +43,14 @@ const Projects = (): JSX.Element => {
       website: 'https://aychdevnft.vercel.app/',
       github: 'https://github.com/aych-dev/AychdevNFT',
     },
+    {
+      name: 'AychGPT',
+      description:
+        'AychGPT uses the OpenAI GPT-3 API to create a chatbox similar to ChatGPT. Built using Typescript, Node/Express, React, Tailwind CSS, DaisyUI ',
+      image: '/images/aychgpt.png',
+      website: 'https://aychgpt.vercel.app/',
+      github: 'https://github.com/aych-dev/AychGPT',
+    },
   ];
 
   const projectElement: JSX.Element[] = projectArray.map((project, index) => {
