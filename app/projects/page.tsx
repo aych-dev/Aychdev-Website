@@ -71,7 +71,7 @@ const Projects = (): JSX.Element => {
           </div>
           <div className='mt-4 px-2'>
             <h2 className='text-xl font-semibold'>{project.name}</h2>
-            <p className='mt-2'>{project.description}</p>
+            <p className='mt-2 md:text-sm'>{project.description}</p>
           </div>
           <div className='flex items-center justify-center font-semibold mt-2 '>
             <a
@@ -92,7 +92,7 @@ const Projects = (): JSX.Element => {
   });
 
   return (
-    <div className='text-white sm:flex items-center justify-center min-w-full flex-grow'>
+    <div className=' text-white sm:grid grid-cols-4 items-center justify-center min-w-full flex-grow'>
       {projectElement}
     </div>
   );
