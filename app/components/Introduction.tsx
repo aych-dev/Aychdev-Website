@@ -54,6 +54,7 @@ const Introduction = () => {
             <p className='my-1 font-semibold '>Vercel</p>
             <p className='my-1 font-semibold '>Netlify</p>
             <p className='my-1 font-semibold '>CSS</p>
+            <p className='my-1 font-semibold '>OpenAI API</p>
           </div>
         </div>
       </div>
