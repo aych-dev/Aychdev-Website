@@ -8,12 +8,6 @@ const Navbar = () => {
           Aychdev
         </Link>
         <div className='flex space-x-1 text-sm sm:space-x-4 sm:text-lg'>
-          <a
-            href='https://resume.creddle.io/resume/dmxtfydshbx'
-            target='_blank'
-          >
-            Resume
-          </a>
           <Link href='/projects'>Projects</Link>
           <Link href='/content'>Content</Link>
           <a
